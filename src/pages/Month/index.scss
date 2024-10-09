@@ -1,0 +1,145 @@
+.monthitem {
+    padding: 20px;
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9); // 渐变背景
+    min-height: 100vh;
+
+    .nav {
+        background: #4caf50; // 深绿色背景
+        color: white;
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .content {
+        .header {
+            margin-bottom: 20px;
+
+            .date {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                
+                background: #fff; // 白色背景
+                border-radius: 8px;
+               // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: background 0.2s;
+
+                &:hover {
+                    background: #f1f8e9; // 悬停时背景颜色
+                }
+
+                .text {
+                    flex: 1;
+                    font-size: 18px;
+                    color: #388e3c; // 深绿色
+                }
+
+                .arrow {
+                    display: inline-block; // 使用 inline-block 使其更灵活
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 7px solid #121826; // 颜色和大小可以根据需求调整
+                    margin-left: 9px;
+                    transition: transform 0.3s;
+                
+                    &.expand {
+                        transform: rotate(180deg); // 旋转180度以表示展开
+                    }
+                }
+                
+            }
+
+            .twoLineOverview {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+
+                .tongji {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .money {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #388e3c; // 深绿色
+                    }
+
+                    .type {
+                        font-size: 14px;
+                        color: #757575; // 灰色
+                    }
+                }
+            }
+
+            .bill-list {
+                list-style: none;
+                padding: 0;
+
+                .noData {
+                    text-align: center;
+                    color: #999;
+                    font-size: 1.2rem;
+                    margin-top: 20px;
+                }
+
+                .bill-item {
+                    display: flex;
+                    align-items: center;
+                    background: #ffffff; // 白色背景
+                    border-radius: 8px;
+                    padding: 10px;
+                    margin: 10px 0;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.2s;
+
+                    &:hover {
+                        transform: scale(1.02); // 悬停效果
+                    }
+
+                    .icon {
+                        font-size: 24px;
+                        color: #4caf50; // 绿色图标
+                        margin-right: 10px;
+                    }
+
+                    .info {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+
+                        .type {
+                            font-weight: bold;
+                            color: #388e3c; // 深绿色
+                        }
+
+                        .useFor {
+                            color: #757575; // 灰色
+                        }
+
+                        .date {
+                            font-size: 12px;
+                            color: #a5d6a7; // 浅绿色
+                        }
+                    }
+
+                    .money {
+                        font-weight: bold;
+                        color: #388e3c; // 深绿色
+                        font-size: 18px;
+                        margin-left: auto; // 右对齐
+                    }
+                }
+            }
+        }
+
+        .datePicker {
+            margin-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+#app-container {
+    background-color: #e0f7fa;
+   
+}
+
+.tab-bar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #004d40;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* antd-mobile TabBar Item 样式 */
+.ant-tab-bar-item {
+    color: #a7ffeb !important;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    /* 当用户点击或选中时，改变背景颜色 */
+    &:active, &.ant-tab-bar-item-active {
+        background-color: #00bfa5 !important;
+        color: #ffffff !important;
+    }
+}

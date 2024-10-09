@@ -1,0 +1,102 @@
+{
+  "ka": [
+    {
+      "type": "pay",
+      "money": -99,
+      "date": "2022-10-24 10:36",
+      "useFor": "drinks",
+      "id": "1"
+    },
+    {
+      "id": "0c0711bb-89e5-408a-a599-b6746f05cb70",
+      "type": "income",
+      "money": 99,
+      "date": "2024-10-06 14:10",
+      "useFor": "get"
+    },
+    {
+      "id": "d10e0c59-526c-4b39-88a7-277ae3acd379",
+      "type": "income",
+      "money": 2000,
+      "date": "2024-10-06 14:58",
+      "useFor": "生活费"
+    },
+    {
+      "id": "8450b984-c860-4f9b-ade8-3e85149acdad",
+      "type": "income",
+      "money": 1,
+      "date": "2024-10-06 15:04",
+      "useFor": "小活动"
+    },
+    {
+      "id": "bb2a33e1-5d2e-47ec-8779-e215f56ad556",
+      "type": "pay",
+      "money": -2,
+      "date": "2024-10-06 15:04",
+      "useFor": "小彩票"
+    },
+    {
+      "id": "678b1469-ab80-43b1-8b42-38f3bae71a73",
+      "type": "income",
+      "money": 99,
+      "date": "2024-10-06 16:4116:41",
+      "useFor": "彩票"
+    },
+    {
+      "id": "bd9b5a93-c6b5-47c4-9bba-3697d42c29cb",
+      "type": "income",
+      "money": 16,
+      "date": "2024-10-06 16:4216:43",
+      "useFor": "中奖"
+    },
+    {
+      "id": "4cbff270-f6d4-4a9d-b554-267ae5c12f48",
+      "type": "pay",
+      "money": -14,
+      "date": "2024-10-06 16:43",
+      "useFor": "测试"
+    },
+    {
+      "id": "9835fccd-6962-4c28-8500-f37ccadb2611",
+      "type": "income",
+      "money": 15,
+      "date": "2024-10-05 23:59",
+      "useFor": "test"
+    },
+    {
+      "id": "9230dfc9-c4a2-4f65-931e-8ad9f9a69268",
+      "type": "pay",
+      "money": -520,
+      "date": "2024-10-08 20:13",
+      "useFor": "礼物"
+    },
+    {
+      "id": "937cb27a-c71e-4151-947e-7f3c66e0d3d8",
+      "type": "income",
+      "money": 99,
+      "date": "2023-09-01 23:59",
+      "useFor": "测试"
+    },
+    {
+      "id": "b1251114-0013-49b1-97fb-85479e7d3ea4",
+      "type": "income",
+      "money": 10000,
+      "date": "2021-06-30 23:59",
+      "useFor": "奖励"
+    },
+    {
+      "id": "20330ace-7804-416c-a82c-04b950596a03",
+      "type": "pay",
+      "money": -123,
+      "date": "2024-10-08 23:59",
+      "useFor": "吃饭"
+    },
+    {
+      "id": "b9fcbc6d-4b6e-4902-b819-719cc088e707",
+      "type": "income",
+      "money": 6.6,
+      "date": "2024-10-08 23:59",
+      "useFor": "$ SUI"
+    }
+  ]
+}
